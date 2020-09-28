@@ -8,14 +8,53 @@
 
 #include <iostream>
 #include "bubble_sort.cpp"
+#include "selection_sort.cpp"
+#include "Insertion_sort.cpp"
+#include "quick_sort.cpp"
+#include "merge_sort.cpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    //input array data
     vector<int> d1={5,1,4,2,8};
     vector<int> d2={};
-    solution test1;
-    test1.optimzied_bubble_sort(d2);
-    for(auto &x:d2){
+    vector<int> d3={4,3,2,10,12,1,5,6};
+    
+    //bubble sort
+//    solution test1;
+//    int n=d1.size();
+//    test1.recursive_bubble_sort(d1,n);
+//    test1.optimzied_bubble_sort(d2);
+//    for(auto &x:d1){
+//        cout<<x<<" ";
+//    }
+    
+    //selection sort
+//    solution_ss test2;
+//    test2.selection_sort(d1);
+//    for(auto &x:d1){
+//        cout<<x<<" ";
+//    }
+    
+    //insertion sort
+//    solution_is test3;
+//    test3.insertion_sort(d3);
+//    for(auto &x:d3){
+//        cout<<x<<" ";
+//    }
+    
+    //selection sort
+//    solution_qs test4;
+//    int r=d3.size();
+//    test4.quick_sort(d3,0,r-1);
+//    for(auto &x:d3){
+//        cout<<x<<" ";
+//    }
+    
+    //quick sort
+    solution_ms test5;
+    int r=d3.size()-1;
+    test5.merge_sort(d3,0,r);
+    for(auto &x:d3){
         cout<<x<<" ";
     }
     return 0;

@@ -44,4 +44,16 @@ public:
             if(swapped==false)break;
         }
     }
+    
+    //recursive bubble sort
+    void recursive_bubble_sort(vector<int> &array, int n){
+        if(n==1)return;
+        //worst case:
+        for(int i=0;i<n-1;i++){
+            if(array[i]>array[i+1]){
+                swap(array[i],array[i+1]);
+            }
+        }
+        recursive_bubble_sort(array, n-1);
+    }
 };

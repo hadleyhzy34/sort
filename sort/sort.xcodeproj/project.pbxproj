@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		FE37871225222EF5003C48F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37871125222EF5003C48F2 /* main.cpp */; };
 		FE37871925222F19003C48F2 /* bubble_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37871825222F19003C48F2 /* bubble_sort.cpp */; };
+		FE37871B2522347A003C48F2 /* selection_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37871A2522347A003C48F2 /* selection_sort.cpp */; };
+		FE37871D25223941003C48F2 /* Insertion_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37871C25223941003C48F2 /* Insertion_sort.cpp */; };
+		FE37871F25223EB5003C48F2 /* merge_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37871E25223EB5003C48F2 /* merge_sort.cpp */; };
+		FE37872125225F16003C48F2 /* quick_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37872025225F16003C48F2 /* quick_sort.cpp */; };
+		FE37872325226AA7003C48F2 /* counting_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37872225226AA6003C48F2 /* counting_sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +32,11 @@
 		FE37870E25222EF5003C48F2 /* sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sort; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE37871125222EF5003C48F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FE37871825222F19003C48F2 /* bubble_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bubble_sort.cpp; sourceTree = "<group>"; };
+		FE37871A2522347A003C48F2 /* selection_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = selection_sort.cpp; sourceTree = "<group>"; };
+		FE37871C25223941003C48F2 /* Insertion_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Insertion_sort.cpp; sourceTree = "<group>"; };
+		FE37871E25223EB5003C48F2 /* merge_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = merge_sort.cpp; sourceTree = "<group>"; };
+		FE37872025225F16003C48F2 /* quick_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_sort.cpp; sourceTree = "<group>"; };
+		FE37872225226AA6003C48F2 /* counting_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = counting_sort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				FE37871125222EF5003C48F2 /* main.cpp */,
+				FE37872225226AA6003C48F2 /* counting_sort.cpp */,
+				FE37871E25223EB5003C48F2 /* merge_sort.cpp */,
+				FE37871C25223941003C48F2 /* Insertion_sort.cpp */,
+				FE37871A2522347A003C48F2 /* selection_sort.cpp */,
 				FE37871825222F19003C48F2 /* bubble_sort.cpp */,
+				FE37872025225F16003C48F2 /* quick_sort.cpp */,
 			);
 			path = sort;
 			sourceTree = "<group>";
@@ -122,7 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE37872325226AA7003C48F2 /* counting_sort.cpp in Sources */,
+				FE37871B2522347A003C48F2 /* selection_sort.cpp in Sources */,
+				FE37871D25223941003C48F2 /* Insertion_sort.cpp in Sources */,
 				FE37871225222EF5003C48F2 /* main.cpp in Sources */,
+				FE37872125225F16003C48F2 /* quick_sort.cpp in Sources */,
+				FE37871F25223EB5003C48F2 /* merge_sort.cpp in Sources */,
 				FE37871925222F19003C48F2 /* bubble_sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
