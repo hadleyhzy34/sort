@@ -12,6 +12,8 @@
 #include "Insertion_sort.cpp"
 #include "quick_sort.cpp"
 #include "merge_sort.cpp"
+#include "bucket_sort.cpp"
+#include "shell_sort.cpp"
 
 int main(int argc, const char * argv[]) {
     //input array data
@@ -51,11 +53,22 @@ int main(int argc, const char * argv[]) {
 //    }
     
     //quick sort
-    solution_ms test5;
-    int r=d3.size()-1;
-    test5.merge_sort(d3,0,r);
-    for(auto &x:d3){
-        cout<<x<<" ";
-    }
+//    solution_ms test5;
+//    int r=d3.size()-1;
+//    test5.merge_sort(d3,0,r);
+//    for(auto &x:d3){
+//        cout<<x<<" ";
+//    }
+    
+    //bucket sort
+//    vector<float> d4={ 0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434 };
+//    solution_bs test6;
+//    test6.bucket_sort(d4);
+//    for(auto &x:d4){
+//        cout<<x<<" ";
+//    }
+    
+    //shell sort
+    
     return 0;
 }

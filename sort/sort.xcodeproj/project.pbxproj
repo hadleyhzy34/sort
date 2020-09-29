@@ -14,6 +14,9 @@
 		FE37871F25223EB5003C48F2 /* merge_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37871E25223EB5003C48F2 /* merge_sort.cpp */; };
 		FE37872125225F16003C48F2 /* quick_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37872025225F16003C48F2 /* quick_sort.cpp */; };
 		FE37872325226AA7003C48F2 /* counting_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37872225226AA6003C48F2 /* counting_sort.cpp */; };
+		FE378725252274E4003C48F2 /* bucket_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE378724252274E4003C48F2 /* bucket_sort.cpp */; };
+		FE37872725227AEB003C48F2 /* shell_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE37872625227AEB003C48F2 /* shell_sort.cpp */; };
+		FE378729252287BA003C48F2 /* heap_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE378728252287BA003C48F2 /* heap_sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,9 @@
 		FE37871E25223EB5003C48F2 /* merge_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = merge_sort.cpp; sourceTree = "<group>"; };
 		FE37872025225F16003C48F2 /* quick_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_sort.cpp; sourceTree = "<group>"; };
 		FE37872225226AA6003C48F2 /* counting_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = counting_sort.cpp; sourceTree = "<group>"; };
+		FE378724252274E4003C48F2 /* bucket_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bucket_sort.cpp; sourceTree = "<group>"; };
+		FE37872625227AEB003C48F2 /* shell_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shell_sort.cpp; sourceTree = "<group>"; };
+		FE378728252287BA003C48F2 /* heap_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heap_sort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				FE37871125222EF5003C48F2 /* main.cpp */,
+				FE378728252287BA003C48F2 /* heap_sort.cpp */,
+				FE37872625227AEB003C48F2 /* shell_sort.cpp */,
+				FE378724252274E4003C48F2 /* bucket_sort.cpp */,
 				FE37872225226AA6003C48F2 /* counting_sort.cpp */,
 				FE37871E25223EB5003C48F2 /* merge_sort.cpp */,
 				FE37871C25223941003C48F2 /* Insertion_sort.cpp */,
@@ -138,10 +147,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE37872325226AA7003C48F2 /* counting_sort.cpp in Sources */,
+				FE378729252287BA003C48F2 /* heap_sort.cpp in Sources */,
+				FE37872725227AEB003C48F2 /* shell_sort.cpp in Sources */,
 				FE37871B2522347A003C48F2 /* selection_sort.cpp in Sources */,
 				FE37871D25223941003C48F2 /* Insertion_sort.cpp in Sources */,
 				FE37871225222EF5003C48F2 /* main.cpp in Sources */,
 				FE37872125225F16003C48F2 /* quick_sort.cpp in Sources */,
+				FE378725252274E4003C48F2 /* bucket_sort.cpp in Sources */,
 				FE37871F25223EB5003C48F2 /* merge_sort.cpp in Sources */,
 				FE37871925222F19003C48F2 /* bubble_sort.cpp in Sources */,
 			);
